@@ -37,7 +37,7 @@ makersharks
 │   │   │               └── MakersharksApplication.java
 │   │   └── resources
 │   │       └── application.properties
-└── pom.xml
+└── pom.xml'''
 
 ## Setup Instructions
 
