@@ -1,23 +1,26 @@
-Here's a sample README.md file content for your Makersharks assessment project:
+# Makersharks Manufacturer Search API
 
-Makersharks Manufacturer Search API
-This is a RESTful API built with Spring Boot that allows buyers to search for manufacturers based on their customized requirements such as location, nature of business, and manufacturing processes. The API supports pagination, input validation, and has a basic structure for extension with security and other features.
+This is a RESTful API built with Spring Boot that allows buyers to search for manufacturers based on customized requirements such as location, nature of business, and manufacturing processes. The API supports pagination, input validation, and is structured for easy extension with additional features like security.
 
-Table of Contents
-Requirements
-Project Structure
-Setup Instructions
-Running the Application
-API Endpoints
-Testing
-Future Improvements
-Requirements
-Java 17 or higher
-Maven
-Git
-Project Structure
-css
-Copy code
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+- [Running the Application](#running-the-application)
+- [API Endpoints](#api-endpoints)
+- [Testing](#testing)
+- [Future Improvements](#future-improvements)
+
+## Requirements
+
+- Java 22
+- Maven
+- Git
+
+## Project Structure
+
+```plaintext
 makersharks
 ├── src
 │   ├── main
@@ -61,7 +64,8 @@ Or run the MakersharksApplication.java class directly from your IDE.
 Running the Application
 After starting the application, the API will be available at http://localhost:8080.
 
-H2 Database Console: http://localhost:8080/h2-console (JDBC URL: jdbc:h2:mem:testdb)
+H2 Database Console: http://localhost:8080/h2-console
+(JDBC URL: jdbc:h2:mem:testdb)
 API Endpoints
 1. Search Suppliers
 Endpoint: /api/supplier/query
@@ -128,17 +132,10 @@ Copy code
   "empty": false
 }
 Testing
-You can test the API using tools like Postman or using CURL commands as provided above. The project also includes a basic unit test setup (if implemented) for the service layer.
+You can test the API using tools like Postman or by using CURL commands as provided above. The project also includes a basic unit test setup (if implemented) for the service layer.
 
 Future Improvements
 Security: Implement security best practices to protect sensitive data and prevent vulnerabilities.
 Extended Validation: Add more detailed validation for inputs.
 Additional Features: Support for more complex queries and filters.
 Improved Documentation: Generate and include Swagger documentation.
-This README file provides a comprehensive guide for setting up, running, and testing your application, as well as a brief overview of future improvements. Adjust the content as necessary to fit your project.
-
-
-
-
-
-
